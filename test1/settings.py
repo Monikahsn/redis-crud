@@ -125,7 +125,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CACHES = {
     'default': {
         'BACKEND': 'django.core.cache.backends.redis.RedisCache',
-        'LOCATION': 'redis://default:GZh3vrxVZCiNd1l9ST1ACTRgVEZ2KG8A@redis-18314.crce179.ap-south-1-1.ec2.redns.redis-cloud.com:18314',
+        'LOCATION': '', # add redis://<username>:password@publicendpoint:port
     }
 }
 
