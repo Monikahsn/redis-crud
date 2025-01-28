@@ -132,16 +132,3 @@ CACHES = {
 SESSION_ENGINE = 'django.contrib.sessions.backends.cache'
 SESSION_CACHE_ALIAS = 'default'
 
-CHANNEL_LAYERS = {
-    "default": {
-        "BACKEND": "channels_redis.core.RedisChannelLayer",
-        "CONFIG": {
-            "hosts": [
-                {
-                    "address": ("redis-18314.crce179.ap-south-1-1.ec2.redns.redis-cloud.com", 18314),
-                    "password": "GZh3vrxVZCiNd1l9ST1ACTRgVEZ2KG8A",
-                }
-            ],
-        },
-    },
-}
